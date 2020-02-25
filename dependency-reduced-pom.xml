@@ -88,7 +88,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>io.pravega.flink.SimpleReader</mainClass>
+                  <mainClass>io.pravega.flink.WatermarkReader</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -211,12 +211,12 @@
     </dependency>
   </dependencies>
   <properties>
-    <scala.binary.version>2.11</scala.binary.version>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
     <java.version>1.8</java.version>
+    <scala.binary.version>2.11</scala.binary.version>
+    <flink.version>1.9.1</flink.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <flink.version>1.9.1</flink.version>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
   </properties>
 </project>
 

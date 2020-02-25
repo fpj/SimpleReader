@@ -1,7 +1,0 @@
-io/pravega/flink/SimpleReader.class
-io/pravega/flink/Constants.class
-io/pravega/avro/Sample$1.class
-io/pravega/avro/Sample$Builder.class
-io/pravega/avro/AvroSampleSerializer.class
-io/pravega/StreamingJob.class
-io/pravega/avro/Sample.class

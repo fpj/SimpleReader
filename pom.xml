@@ -159,7 +159,7 @@ under the License.
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>io.pravega.flink.SimpleReader</mainClass>
+									<mainClass>io.pravega.flink.WatermarkReader</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
